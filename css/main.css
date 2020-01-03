@@ -2,6 +2,9 @@
 =            Typography            =
 ==================================*/
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+*{
+	scroll-behavior: smooth;
+}
 
 body{
 	background-color: #fff;
@@ -725,10 +728,10 @@ a:focus{
 .team-member .caption .social-icon li:last-child{
 	margin-right: 0;
 }
-.team-member .member-pic:hover .color-overlay{
+/* .team-member .member-pic:hover .color-overlay{
 	left: 0;
 	opacity: 1;
-}
+} */
 .team-member .member-pic:hover .social-icon{
 	left: 50%;
 	opacity: 1;

@@ -121,9 +121,28 @@
 		.menu-active {
 		  left: 30% !important;
 		}
+
+		div.pic-1{
+			background-image: url(../img/slider/01-m.jpg);
+		}
+		div.pic-2{
+			background-image: url(../img/slider/02-m.jpg);
+		}
+		div.pic-3{
+			background-image: url(../img/slider/03-m.jpg);
+		}
     }
 
     /* Custom, iPhone Retina */ 
     @media only screen and (max-width : 320px) {
-        
+        .caption .main-title{
+			font-size: 20px !important;
+			margin-bottom: 5px !important;
+		}
+
+		#item{
+			width: 100%;
+			height: auto;
+			background: url(../img/bg/04.jpg);
+		}
     }

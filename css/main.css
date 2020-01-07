@@ -283,6 +283,23 @@ a:focus{
 	-webkit-background-size: cover;
 	background-size: cover;
 }
+
+.pic-1 {
+	background-image: url(../img//slider/01.jpg);
+
+}
+
+.pic-2 {
+	background-image: url(../img//slider/02.jpg);
+
+
+}
+
+.pic-3 {
+	background-image: url(../img//slider/03.jpg);
+
+}
+
 #home-slider .caption {
   position: absolute;
   top: 50%;
@@ -294,7 +311,7 @@ a:focus{
   z-index: 15;
   font-size: 18px;
   font-weight: 300;
-  color: #fff;
+  color: #fff(109, 16, 16);
 }
 #home-slider .caption-wide{margin-top: -204px;}
 #home-slider .caption .main-title {

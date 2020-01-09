@@ -712,8 +712,9 @@ a:focus{
 =============================*/
 
 #teams{
-	background-color: #f6f6f6;
+	background-color: #dddbdb;
 }
+
 .team-member .member-pic{
 	position: relative;
 	overflow: hidden;
